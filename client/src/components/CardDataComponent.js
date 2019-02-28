@@ -10,7 +10,7 @@ class CardDataComponent extends Component {
                 {mesh &&
                 <div className="moon-details" style={styles.moonDetails}>
                     <div style={styles.moonDetails}>
-                        <h2>Number of Faces: {mesh.geometry.faces.length}</h2>
+                        <h2>Number of Triangles: {mesh.geometry.faces.length}</h2>
                     </div>
                     <div style={styles.moonDetails}>
                         <h2>Surface Area: {mesh.geometry.surfaceArea.toFixed(4)}</h2>
