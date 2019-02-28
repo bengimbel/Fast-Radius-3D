@@ -5,7 +5,7 @@ constructor(props){
     super(props)
     
     this.state = {
-        
+
     }
 }
 
@@ -13,7 +13,7 @@ componentDidMount(){
     this.scene = new THREE.Scene();
     this.camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1000 );
     this.camera.position.z = 70;
-    this.camera.position.y = 0;
+    this.camera.position.y = 10;
     this.camera.position.x = 0;
     this.scene.add( this.camera );
    
