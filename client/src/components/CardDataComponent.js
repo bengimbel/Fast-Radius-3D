@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class CardDataComponent extends Component {
 
+    //Displaying the data passed in as props
     render(){
         const { mesh } = this.props
         return (
