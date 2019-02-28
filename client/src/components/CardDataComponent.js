@@ -32,7 +32,6 @@ export default CardDataComponent;
 const styles = {
     container: {
         display: 'flex',
-        // flexDirection: 'column',
         justifyContent: 'center',
         width: '50%',
         marginLeft: '100px'
