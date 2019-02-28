@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 const fs = require('fs');
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => console.log(`Connected port ${port}`));
 
 //GET route to fetch STL file
 app.get('/express_backend', (req, res) => {
