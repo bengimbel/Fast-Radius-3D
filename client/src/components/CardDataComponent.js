@@ -23,6 +23,11 @@ class CardDataComponent extends Component {
                     </div>
                 </div>
                 }
+                {!mesh &&
+                    <div>
+                        <h1>Loading...</h1>
+                    </div>
+                }
             </div>
         )
     }

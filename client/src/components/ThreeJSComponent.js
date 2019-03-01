@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
 class ThreeJSComponent extends Component {
-constructor(props){
-    super(props)
-    
-    this.state = {
-
-    }
-}
 
 componentDidMount(){
     this.scene = new THREE.Scene();

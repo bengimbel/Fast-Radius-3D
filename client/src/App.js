@@ -77,12 +77,14 @@ class App extends Component{
     let totalTriangleCoordinates = []
     let surfaceArea = 0
     let lines = stl.split('\n');
+    //Split lines up and loop through each line...
     for (let i = 0; i < lines.length; i++) {
         if (done) {
             break;
         }
         let line = this.trim(lines[i]);
         let parts = line.split(' ');
+        //Switch statement to work my way through each level of STL file
         switch (state) {
             case '':
                 if (parts[0] !== 'solid') {
