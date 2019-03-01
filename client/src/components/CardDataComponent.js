@@ -17,8 +17,8 @@ class CardDataComponent extends Component {
                     </div>
                     <div className="bounding-box" style={styles.boundingBox}>
                         <h2>Bounding Box: &#123;</h2>
-                        <h3 style={styles.maxMinIndent}>Minimum: &#123; X:{mesh.geometry.boundingBox.min.x.toFixed(3)}, Y:{mesh.geometry.boundingBox.min.y.toFixed(3)}, Z:{mesh.geometry.boundingBox.min.z.toFixed(3)} &#125;,</h3>
-                        <h3 style={styles.maxMinIndent}>Maximum: &#123; X:{mesh.geometry.boundingBox.max.x.toFixed(3)}, Y:{mesh.geometry.boundingBox.max.y.toFixed(3)}, Z:{mesh.geometry.boundingBox.max.z.toFixed(3)} &#125;</h3>
+                        <h3 style={styles.maxMinIndent}>Minimum: &#123; X: {mesh.geometry.boundingBox.min.x.toFixed(3)}, Y: {mesh.geometry.boundingBox.min.y.toFixed(3)}, Z: {mesh.geometry.boundingBox.min.z.toFixed(3)} &#125;,</h3>
+                        <h3 style={styles.maxMinIndent}>Maximum: &#123; X: {mesh.geometry.boundingBox.max.x.toFixed(3)}, Y: {mesh.geometry.boundingBox.max.y.toFixed(3)}, Z: {mesh.geometry.boundingBox.max.z.toFixed(3)} &#125;</h3>
                         <h2>&#125;</h2>
                     </div>
                 </div>
