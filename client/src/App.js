@@ -207,7 +207,7 @@ class App extends Component{
     }
 };
 
-// pass mesh object as a prop to the ThreeComponent to display it
+// Pass mesh object as a prop to the ThreeComponent and CardDataComponent to display it's data
 render(){
     return(
       <div>
