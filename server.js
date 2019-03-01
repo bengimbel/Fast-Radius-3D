@@ -7,7 +7,7 @@ app.listen(port, () => console.log(`Connected port ${port}`));
 
 //GET route to fetch STL file
 app.get('/express_backend', (req, res) => {
-  fs.readFile( __dirname + '/assets/Moon.stl', function (err, data) {
+  fs.readFile( __dirname + '/assets/Moon.stl', (err, data) => {
     if (err) {
       throw err; 
     } 
